@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: fa50cc59691859143bc733cb89dbdd93
+  productGUID: 11e4d86918ecfb943ba0b56956c32c6e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Tower Defence
+  productName: My project (4)
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -697,10 +697,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: a1276d54-3eea-415b-a4e6-9dc4502269b8
+  cloudProjectId: a8960948-c8f2-4b9d-a5cd-efdced5f871f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Tower Defence
+  projectName: My project (4)
   organizationId: striker_34
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
