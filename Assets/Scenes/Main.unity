@@ -1279,7 +1279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9448e39aa3e826a46bd476a1ad49dc10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.71
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9448e39aa3e826a46bd476a1ad49dc10, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1968,7 +1968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9448e39aa3e826a46bd476a1ad49dc10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.72
+      value: 7.29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9448e39aa3e826a46bd476a1ad49dc10, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2365,13 +2365,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251961254}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.27667338, y: -0, z: -0, w: 0.960964}
-  m_LocalPosition: {x: 50, y: 26, z: -268}
+  m_LocalRotation: {x: 0.15029393, y: 0.40730482, z: -0.058094554, w: 0.89896584}
+  m_LocalPosition: {x: 11.5, y: 14.6, z: -247.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 32.124, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 18.514, y: 48.926, z: 1.087}
 --- !u!1001 &1277433104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3972,7 +3972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4044387474588096467, guid: 031c5f90ce48919419c8337238cdc91d, type: 3}
       propertyPath: m_Name
-      value: Goober
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4044387474588096467, guid: 031c5f90ce48919419c8337238cdc91d, type: 3}
       propertyPath: m_IsActive
