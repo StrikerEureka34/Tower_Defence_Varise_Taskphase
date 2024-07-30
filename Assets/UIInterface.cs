@@ -4,11 +4,37 @@ using UnityEngine;
 
 public class UIInterface : MonoBehaviour {
 
-    public GameObject cubeTurret;
+    public GameObject rocketTurret;
+    public GameObject gattlingTurret;
     GameObject focusObj;
+    private GameObject itemPrefab;
 
     void Start() {
 
+    }
+
+    public void CreateRocket()
+    {
+        itemPrefab = rocketTurret;
+        CreateItemforButton();
+    }
+
+    public void CreateGattling()
+    {
+        itemPrefab= gattlingTurret;
+        CreateItemforButton();
+
+    }
+
+    void CreateItemforButton()
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        if (!Physics.Raycast(ray, out hit)) return;
+
+        focusObj = Instantiate(itemPrefab, hit.point, itemPrefab.transform.rotation);
+        focusObj.GetComponent<Collider>().enabled = false;
     }
 
 
@@ -17,13 +43,13 @@ public class UIInterface : MonoBehaviour {
 
         if (Input.GetMouseButtonDown(0)) {
 
-            RaycastHit hit;
+           /* RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             if (!Physics.Raycast(ray, out hit)) return;
 
             focusObj = Instantiate(cubeTurret, hit.point, cubeTurret.transform.rotation);
-            focusObj.GetComponent<Collider>().enabled = false;
+            focusObj.GetComponent<Collider>().enabled = false;*/
         } else if (focusObj && Input.GetMouseButton(0)) {
 
             RaycastHit hit;
